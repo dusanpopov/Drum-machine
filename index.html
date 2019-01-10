@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>JS Drum Machine</title>
+</head>
+
+<body>
+
+    <div class="wrapper">
+
+    <div class="container">
+
+        <div class="container__row--1">
+
+            <button data-key="74" class="pad">Pad 13 <span>Bass (J)</span></button>
+            <button data-key="75" class="pad">Pad 14 <span>Ride (K)</span></button>
+            <button data-key="76" class="pad">Pad 15 <span>Perc (L)</span></button>
+            <button data-key="186" class="pad">Pad 16 <span>Bass (;)</span></button>
+        </div>
+
+        <div class="container__row--2">
+
+            <button data-key="81" class="pad">Pad 9 <span>Closed hat (Q)</span></button>
+            <button data-key="87" class="pad">Pad 10 <span>Snare (W)</span></button>
+            <button data-key="69" class="pad">Pad 11 <span>Perc (E)</span></button>
+            <button data-key="82" class="pad">Pad 12 <span>Clap (R)</span></button>
+
+        </div>
+        <div class="container__row--3">
+
+            <button data-key="65" class="pad">Pad 5 <span>Kick (A)</span></button>
+            <button data-key="83" class="pad">Pad 6 <span>Open hat (S)</span></button>
+            <button data-key="68" class="pad key">Pad 7 <span>Closed hat (D)</span></button>
+            <button data-key="70" class="pad key">Pad 8 <span>Ride (F)</span></button>
+
+        </div>
+
+        <div class="container__row--4">
+
+            <button data-key="90" class="pad">Pad 1 <span>Kick (Z)</span></button>
+            <button data-key="88" class="pad">Pad 2 <span>Clap (X)</span></button>
+            <button data-key="67" class="pad">Pad 3 <span>Snare (C)</span></button>
+            <button data-key="86" class="pad">Pad 4 <span>Open hat (V)</span></button>
+
+        </div>
+
+    </div>
+
+</div>
+
+<audio data-key="90" src="audio/Kick1.wav"></audio>
+<audio data-key="88" src="audio/Clap1.wav"></audio>
+<audio data-key="67" src="audio/Snare1.wav"></audio>
+<audio data-key="86" src="audio/OpenHat1.wav"></audio>
+
+<audio data-key="65" src="audio/Kick2.wav"></audio>
+<audio data-key="83" src="audio/OpenHat2.wav"></audio>
+<audio data-key="68" src="audio/ClosedHat1.wav"></audio>
+<audio data-key="70" src="audio/Ride1.wav"></audio>
+
+<audio data-key="81" src="audio/ClosedHat2.wav"></audio>
+<audio data-key="87" src="audio/Snare2.wav"></audio>
+<audio data-key="69" src="audio/Perc2.wav"></audio>
+<audio data-key="82" src="audio/Clap2.wav"></audio>
+
+<audio data-key="74" src="audio/Bass2.wav"></audio>
+<audio data-key="75" src="audio/Ride2.wav"></audio>
+<audio data-key="76" src="audio/Perc1.wav"></audio>
+<audio data-key="186" src="audio/Bass1.wav"></audio>
+
+<script src="js/script.js"></script>
+</body>
+
+</html>
